@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <style>
+      :root {
+        --bg: linear-gradient(
+          to right,
+          rgb(198, 255, 221),
+          rgb(251, 215, 134),
+          rgb(247, 121, 125)
+        );
+      }
+      body {
+        background: var(--bg);
+        background-image: var(--bg);
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" name="male" placeholder="Your name" />
+    <input type="text" name="female" placeholder="Partners Name" />
+    <p id="output"></p>
+    <button id="btn">click</button>
+    <script src="test.js"></script>
+  </body>
+</html>
