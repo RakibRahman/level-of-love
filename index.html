@@ -4,27 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
-    <style>
-      :root {
-        --bg: linear-gradient(
-          to right,
-          rgb(198, 255, 221),
-          rgb(251, 215, 134),
-          rgb(247, 121, 125)
-        );
-      }
-      body {
-        background: var(--bg);
-        background-image: var(--bg);
-      }
-    </style>
+    <title>Test Your Love Level</title>
+    <link rel="stylesheet" href="css/wickedcss.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <input type="text" name="male" placeholder="Your name" />
-    <input type="text" name="female" placeholder="Partners Name" />
-    <p id="output"></p>
-    <button id="btn">click</button>
-    <script src="test.js"></script>
+    <div id="container" class="slideRight">
+      <h1 class="pulsating">Love in the air</h1>
+      <input type="text" name="male" placeholder="Your Name" />
+      <input type="text" name="female" placeholder="Partner Name" />
+      <button id="btn">Show The Love</button>
+      <div class="heartbeat" id="output"></div>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
